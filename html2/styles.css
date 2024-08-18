@@ -1,0 +1,87 @@
+/* Basic reset to remove default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117; /* Dark background */
+    color: #c9d1d9; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* Main container styling */
+.container {
+    text-align: center;
+}
+
+/* Header styling */
+.header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Email signup form styling */
+.email-signup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+/* Input field styling */
+.email-signup input[type="email"] {
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+/* Button styling */
+.email-signup button {
+    padding: 15px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Specific button styles */
+.email-signup button[type="submit"] {
+    background-color: #6f42c1; /* Purple color */
+}
+
+.email-signup button[type="button"] {
+    background-color: #30363d; /* Gray color */
+}
+
+/* Trusted organizations section styling */
+.trusted-by {
+    margin-top: 30px;
+}
+
+.trusted-by p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.trusted-by .logos img {
+    max-width: 80px;
+    margin: 0 15px;
+}
